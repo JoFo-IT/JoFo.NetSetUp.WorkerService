@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>JoFo.NetSetUp.WorkerService</Title>
+        <Authors>JoFo</Authors>
+        <PackageProjectUrl>https://github.com/JoFo-IT/JoFo.NetSetUp.WorkerService</PackageProjectUrl>
+        <PackageIcon>Logo.png</PackageIcon>
+        <RepositoryUrl>https://github.com/JoFo-IT/JoFo.NetSetUp.WorkerService</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\..\.Media\01_Logo\Logo.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>Logo.png</Link>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="JoFo.NetSetUp.Helper" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>
