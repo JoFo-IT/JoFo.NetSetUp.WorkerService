@@ -1,13 +1,10 @@
 ![](./.Media/02_SocialMedia/repository-open-graph.png)
 
-# GitTamplate
+# JoFo.NetSetUp.WorkerService
 
 ## Project description
 
-
 ## Features include
-
-
 
 ## Contributing
 
